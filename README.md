@@ -40,11 +40,11 @@ JSON
 
 Would you like to install them now with npm?
 Yes
-``` 
+```
 
 7. Override Airbnb `.eslintrc.json` with this content:
 
-``` json
+```json
 {
   "env": {
     "browser": true,
@@ -110,9 +110,9 @@ Yes
 
 The execution of the ESLint library can be approved using one of the following :
 
-* clicking on the status bar icon
-* using the quick fix for the corresponding ESLint problem
-* executing the command ESLint: Manage Library Execution from the command palette
+- clicking on the status bar icon
+- using the quick fix for the corresponding ESLint problem
+- executing the command ESLint: Manage Library Execution from the command palette
 
 All of the will open the following dialog box you need to **Allow**.
 
