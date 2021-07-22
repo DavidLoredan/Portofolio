@@ -1,18 +1,26 @@
 import styled from 'styled-components';
 
 const SContactMe = styled.div`
-  background-color: black;
+  background-image: url("../../image/wood.jpg");
+
   .content {
-    height: 100vh;
+    height: 60vh;
+    width:99vw;
+
   }
   .titleContact {
     font-size: 2em;
+    font-weight:bold;
     color: white;
+    margin-left:10vw;
+    margin-top:5vh;
   }
   .contactUs {
-    margin-top: 10vh;
-    margin-left: 40vw;
-  }
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   
+   }
   .button {
     width: 300px;
     height: 30px;
@@ -51,6 +59,17 @@ const SContactMe = styled.div`
     flex-direction: column;
     width: 300px;
     height: 100px;
+  }
+  .boxstyle{
+    width:50vw;
+    height:40vh;
+    margin-left:25vw;
+    margin-right:25vw;
+    background-color:white;
+    border-radius:10px;
+    margin-top:5vh;
+    
+    
   }
 `;
 

@@ -17,10 +17,10 @@ function App() {
           <Route exact path="/">
             <AboutMe />
           </Route>
-          <Route path="/CuriculumVitae" component={CuriculumVitae} />
-          <Route path="/ContactMe" component={ContactMe} />
           <Route path="/Creations" component={Creations} />
         </Switch>
+        <CuriculumVitae />
+        <ContactMe />
       </StyledApp>
     </Router>
   );
